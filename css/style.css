@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Droid;
+    src: url("Droid.Arabic.Naskh.Regular.ttf");
+}
+
+@font-face {
+    font-family: DroidBold;
+    src: url("Droid.Arabic.Naskh.Bold.ttf");
+}
+
+html {
+	font-family: Droid;
+	font-size: 12pt;
+}
+
+div {
+	position: absolute;
+	padding: 2px 2px 2px 2px;
+}
+
+a {
+	color: #6d86cf;
+	text-decoration:none;
+	font-family: Droid;
+	font-size: 12pt;
+	cursor: hand;
+}
+
+input {
+	display: block;
+	width: 100%;
+	direction: rtl;
+	font-family: Droid;
+	font-size: 12pt;
+}
+
+iframe {
+	display: block;
+	width: 100%;
+	height: 90%;
+	margin-top: 10px;
+	border: 0;
+	overflow: hidden;
+}
+
+svg {
+	border: 0;
+}
